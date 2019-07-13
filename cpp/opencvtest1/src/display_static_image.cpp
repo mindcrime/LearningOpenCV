@@ -1,16 +1,10 @@
-//============================================================================
-// Name        : test1.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
-
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui.hpp>
 #include <iostream>
 
 using namespace std;
+
+#ifdef FOO
 
 int main(int argc, char **argv)
 {
@@ -31,3 +25,4 @@ int main(int argc, char **argv)
 
 	return 0;
 }
+#endif
